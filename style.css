@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Overpass:wght@600&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hero {
+    background: url("images/image 1.png"),rgba(0,0,0,0.4);
+    background-size: cover;
+    min-height: 50vh;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    color: #f5f5f5;
+}
+
+.logo h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li{
+    list-style: none;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.navigation a{
+    color: #f5f5f5 ;
+    text-decoration: none;
+    font-size: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.navigation a:hover{
+    color: #fff;
+}
+
+.art {
+    color: #385999;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+.rhyme {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+.text {
+    color: #d5d5d5;
+    font-size: 16px;
+}
+
+.button1 {
+    width: 160px;
+    height: 45px;
+    color: #fff;
+    background: rgba(61, 61, 61,0.5);
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 75px;
+    border-color: rgba(61, 61, 61,0.5);
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 12px;
+}
+
+.button1:hover {
+    background-color:#385999;
+    color: #fff;
+}
+
+
+.around {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.around li {
+    list-style: none;
+    padding: 10px 15px;
+}
+
+.around a{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+
+}
+
+.about {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 24px ;
+}
+.me {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.button2 {
+    width: 160px;
+    height: 45px;
+    color: #fff;
+    background: #385999;
+    border-radius: 75px;
+    border-color: #385999;
+    font-weight: 600;
+    padding-bottom: 11px;
+}
+.button2:hover {
+    color: #385999;
+    background-color:#fff;
+}
+
+.color1{
+    background-color:#fef2f2;
+    padding: 20px 0 155px 0;
+}
+.my{
+   font-family: 'Nunito Sans', sans-serif;
+   color: rgb(61, 61, 61);
+   font-weight: 600;
+   padding-top: 24px;
+}
+
+.portfolio{
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(61, 61, 61);
+    font-weight: 600
+}
+
+
+.port{
+    margin-top: 30px;
+}
+
+.write {
+    padding-bottom: 12px;
+}
+
+.whati {
+    padding-top: 35px;
+}
+
+.do{
+   padding-bottom: 70px;
+}
+
+.opt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #fff;
+    padding: 80px 20px 20px;
+    height: 100%;
+    }
+
+.opts {
+    justify-content: center;
+    position: absolute;
+    background-color: #fef2f2;
+    border-radius: 50%;
+    padding: 10px ;
+    top: -58px;
+    left: calc(50% - 50px);
+    height: 100px;
+    width: 90px;
+    display: flex;
+    align-content: center;
+}
+
+.movetext {
+    text-align: center;
+}
+.howit{
+    padding-top: 44px;
+}
+
+.color2 {
+    background-color: #fef2f2;
+    padding-top: 16px;
+    margin-top: 60px;
+}
+
+.section {
+    justify-content: space-around;
+    
+}
+
+.number1 h4{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color:#ff7f7d ;
+    color: #fff;
+}
+
+.number2 h4{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color:#feab1d ;
+    color: #fff;
+}
+.number3 h4{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color:#56d3d5;
+    color: #fff;
+}
+
+.section {
+    background-color: #fff;
+    
+    
+}
+
+.numberandtext {
+    display: flex;
+}
+
+.newsfeed {
+    padding-top: 25px;
+}
+
+.ptext {
+    text-align: center;
+    padding: 10px 50px;
+
+}
+.newsfeed{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.selectallsection{
+}
