@@ -168,28 +168,6 @@
     
 }
 
-.number1 h4{
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    background-color:#ff7f7d ;
-    color: #fff;
-}
-
-.number2 h4{
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    background-color:#feab1d ;
-    color: #fff;
-}
-.number3 h4{
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    background-color:#56d3d5;
-    color: #fff;
-}
 
 .section {
     background-color: #fff;

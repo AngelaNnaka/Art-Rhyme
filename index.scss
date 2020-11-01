@@ -152,8 +152,6 @@ body {
           color: #656565;
         }
       }
-      img {
-      }
     }
   }
 }
@@ -196,7 +194,7 @@ body {
           }
         }
         .movetext {
-            color: #656565;
+          color: #656565;
           h5 {
             font-family: "Nunito Sans", sans-serif;
             font-size: 20px;
@@ -207,6 +205,182 @@ body {
             font-size: 13px;
           }
         }
+      }
+    }
+  }
+}
+
+.how-it-works {
+  .container {
+    .works-header {
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      span {
+        margin-bottom: 0.8rem;
+      }
+    }
+    .row {
+      .col-12 {
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+      .section {
+        padding: 2rem;
+        height: 100%;
+        .numberandtext {
+          margin-bottom: 1rem;
+          .number {
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            color: #fff;
+            &.one {
+              background-color: #ff7f7d;
+            }
+            &.two {
+              background-color: #feab1d;
+            }
+            &.three {
+              background-color: #56d3d5;
+            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 1rem;
+            h4 {
+              margin: 0;
+              font-size: 18px;
+              font-weight: 600;
+            }
+          }
+          h5 {
+            margin: 0;
+            display: flex;
+            align-items: center;
+          }
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+.news-feed {
+  padding-top: 16px;
+  .container {
+    .news-header {
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      span {
+        margin-bottom: 0.8rem;
+      }
+    }
+    .selectallsection {
+      .row {
+        .nextsection {
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          img {
+          }
+          .contents {
+            padding: 1.5rem;
+            .icons {
+              display: flex;
+              justify-content: space-between;
+              span {
+                font-size: 12px;
+                letter-spacing: 0.05em;
+                color: #9f9999;
+                display: flex;
+                align-items: center;
+                img {
+                  margin-right: 0.5rem;
+                }
+              }
+              margin-bottom: 1rem;
+            }
+            .content {
+              h4 {
+                font-weight: 600;
+                font-size: 17px;
+                color: #656565;
+              }
+              p {
+                font-size: 14px;
+              }
+              margin-bottom: 1rem;
+            }
+            .tags {
+              button {
+                background: #3b5999;
+                color: #fff;
+                border: none;
+                width: 32%;
+                padding: 10px 15px;
+                font-weight: 600;
+                font-size: 14px;
+                &:hover {
+                  opacity: 0.8;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.get-in-touch {
+  .container {
+    .touch-header {
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      span {
+        margin-bottom: 0.8rem;
+      }
+    }
+    .form {
+      .col {
+        padding: 5px;
+      }
+      input,
+      select {
+        background: white;
+        border: none;
+        outline: none;
+        padding: 0 15px;
+        height: 50px;
+        font-size: 18px;
+        width: 100%;
+        &::-webkit-input-placeholder,
+        &::-ms-input-placeholder,
+        &:-ms-input-placeholder {
+          letter-spacing: 0.02em;
+          color: #b5b3b3;
+          font-size: 15px;
+        }
+      }
+      textarea{
+        width: 100%;
+      }
+    }
+    .contact-connect{
+      color: #fff;
+      .address{
+        background:  linear-gradient(rgba(13, 18, 30, 0.89), rgba(13, 18, 30, 0.89)), url('/images/image\ 16.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 3rem 2rem;
+      }
+      .phone{
+        background: rgba(3, 14, 38, 0.89);
+        padding: 3rem 2rem;
       }
     }
   }
