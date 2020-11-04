@@ -159,7 +159,7 @@
 
 .color2 {
     background-color: #fef2f2;
-    padding-top: 16px;
+    padding: 45px 0;
     margin-top: 60px;
 }
 
@@ -192,6 +192,8 @@
     text-align: center;
     padding-top: 50px;
 }
+
+
 
 .selectallsection{
 }
