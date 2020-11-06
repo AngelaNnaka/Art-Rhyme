@@ -399,7 +399,7 @@ body {
 
 .submit-now {
 position: absolute; 
-padding: 14px;
+padding-button: 14px;
 background-color: #3B5999;
 color: #fff;
 border-radius: 25px;
@@ -445,6 +445,7 @@ background-color: #fff;
 }
 @media screen and (max-width:600px){
     .contact-connect{
+        display: none;
         visibility: hidden;
     }
 }
@@ -462,3 +463,5 @@ background-color: #fff;
         border: 2px;
     }
 }
+
+
