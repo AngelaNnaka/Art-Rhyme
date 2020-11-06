@@ -399,7 +399,7 @@ body {
 
 .submit-now {
 position: absolute; 
-padding-button: 14px;
+padding: 12px;
 background-color: #3B5999;
 color: #fff;
 border-radius: 25px;
